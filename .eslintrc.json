@@ -4,7 +4,13 @@
     "node": true,
     "react-native/react-native": true
   },
-  "extends": ["plugin:react/recommended", "airbnb", "airbnb/hooks", "prettier", "prettier/react"],
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "airbnb/hooks",
+    "prettier",
+    "prettier/react"
+  ],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -14,6 +20,9 @@
   },
   "plugins": ["react", "react-native"],
   "rules": {
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    "react/jsx-filename-extension": [
+      1,
+      { "extensions": [".js", ".jsx"] }
+    ]
   }
 }
