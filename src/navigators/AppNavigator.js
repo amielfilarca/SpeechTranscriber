@@ -11,7 +11,7 @@ const Stack = createNativeStackNavigator()
 const AppNavigator = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName='authentication'>
+      <Stack.Navigator initialRouteName='transcription'>
         <Stack.Screen
           name='authentication'
           component={AuthenticationScreen}
