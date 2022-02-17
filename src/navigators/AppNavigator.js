@@ -2,8 +2,8 @@ import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
-import SplashScreen from '../screens/SplashScreen
-import OnboardingScreen from '../screens/OnboardingScreen
+import SplashScreen from '../screens/SplashScreen'
+import OnboardingScreen from '../screens/OnboardingScreen'
 import AuthenticationScreen from '../screens/AuthenticationScreen'
 import TranscriptionScreen from '../screens/TranscriptionScreen'
 import HistoryScreen from '../screens/HistoryScreen'
