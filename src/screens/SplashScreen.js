@@ -1,10 +1,10 @@
 import React from 'react';
 import { SafeAreaView, StatusBar, Image } from 'react-native';
 
-const Splash = ({navigation}) => {
+const SplashScreen = ({navigation}) => {
 
     setTimeout(() => {
-        navigation.replace('Onboarding')
+        navigation.replace('OnboardingScreen')
     }, 2000)
 
   return (
@@ -30,4 +30,4 @@ const Splash = ({navigation}) => {
   );
 };
 
-export default Splash;
+export default SplashScreen;
