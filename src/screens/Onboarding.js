@@ -4,7 +4,7 @@ import { COLORS, SIZES } from '../constants/index'
 import AntDesignIcons from 'react-native-vector-icons/AntDesign';
 import Data from '../data/onboarding';
 
-const Onboarding = ({navigation}) => {
+const OnboardingScreen = ({navigation}) => {
 
     const flatlistRef = useRef();
     const [currentPage, setCurrentPage] = useState(0);
@@ -288,4 +288,4 @@ const Onboarding = ({navigation}) => {
     )
 }
 
-export default Onboarding;
+export default OnboardingScreen;
