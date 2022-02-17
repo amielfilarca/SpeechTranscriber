@@ -12,6 +12,8 @@ target 'SpeechTranscriber' do
     :hermes_enabled => false
   )
 
+  pod 'react-native-voice', :path => '../node_modules/@react-native-voice/voice'
+
   target 'SpeechTranscriberTests' do
     inherit! :complete
     # Pods for testing
