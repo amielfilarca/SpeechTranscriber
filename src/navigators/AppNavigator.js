@@ -14,7 +14,7 @@ const Stack = createNativeStackNavigator()
 const AppNavigator = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName='transcription'>
+      <Stack.Navigator screenOptions={{headerShown: false}}>
          <Stack.Screen
           name='splash'
           component={SplashScreen}
