@@ -1,0 +1,11 @@
+export { default as Login } from './LoginScreen/LoginScreen';
+export { default as OnBoarding } from './OnBoardingScreen/OnBoardingScreen';
+export { default as SignUp } from './SignUpScreen/SignUpScreen';
+export { default as HomeScreen } from './HomeScreen/HomeScreen';
+export { default as Profile } from './ProfileScreen/ProfileScreen';
+export { default as AppDetails } from './AppDetails/AppDetails';
+export { default as Transcription } from './TranscriptionScreen/Transcription';
+export { default as History } from './HistoryScreen/History';
+export { default as EditProfile } from './EditProfile/EditProfile';
+export { default as AppInfo } from './AppInfo/AppInfo';
+export { default as HelpInfo } from './HelpInfo/HelpInfo';
