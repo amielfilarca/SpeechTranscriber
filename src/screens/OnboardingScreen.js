@@ -166,7 +166,8 @@ const OnboardingScreen = ({navigation}) => {
                                 flexDirection: 'row',
                                 justifyContent: 'center',
                                 alignItems: 'center'
-                            }}onPress={()=>navigation.replace('')}>
+                            }}
+                            onPress={()=>navigation.replace('TranscriptionScreen')}>
                                 <Text style={{
                                     color: COLORS.white,
                                     fontSize: 18,
