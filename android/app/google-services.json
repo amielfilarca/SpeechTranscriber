@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "690775934065",
+    "project_id": "speechtranscriberfirebase",
+    "storage_bucket": "speechtranscriberfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690775934065:android:91b10bad6f8c75672847d0",
+        "android_client_info": {
+          "package_name": "com.mainapplog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690775934065-2d2bn5pdgk75fk11qeq51csbprhaiue9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mainapplog",
+            "certificate_hash": "5bec04ce062b403a0e03516414b15ca6071850c5"
+          }
+        },
+        {
+          "client_id": "690775934065-qhkjrkq5t38cb96c4e4gm5drvrs6j8qg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4CkBEJrmXlApvUBT1jSge5r-NCUhZ00I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690775934065-qhkjrkq5t38cb96c4e4gm5drvrs6j8qg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
