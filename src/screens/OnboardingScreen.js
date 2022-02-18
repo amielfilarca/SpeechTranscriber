@@ -216,7 +216,7 @@ const OnboardingScreen = ({navigation}) => {
                     <ImageBackground 
                         source={item.img}
                         style={{
-                            width: 350, 
+                            width: 365, 
                             height: 330, 
                             resizeMode: 'contains'}}
                     />
